@@ -7,7 +7,7 @@ int main() {
 
     while (num > 0) {
         digit = num % 10;
-        digit = (digit + 1) % 10; // add 1 and handle 9→0
+        digit = (digit + 1) % 10; 
         newNum = digit * place + newNum;
         num /= 10;
         place *= 10;
